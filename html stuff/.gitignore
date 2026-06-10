@@ -1,0 +1,13 @@
+# Ignore media files
+*.mp4
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+
+# Ignore audio files
+*.mp3
+*.wav

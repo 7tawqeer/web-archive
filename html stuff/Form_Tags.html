@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags in Html</title>
+    <style>
+        body{
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="username">Enter name</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name" required>
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password " id="password">
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <label for="email">Email here</label>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <label for="phonenumber">Phone No.</label>
+            <input type="tel" name="phone" id="phonenumber" placeholder="Enter phone number">
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <input type="text" id="message" name="message" placeholder="Enter your Mesage">
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <input type="checkbox" name="coding" id="coding">
+            <label for=" coding">i am good at coding</label>
+            <br>
+            <input type="checkbox" name="python" id="python">
+            <label for=" python">i am good at python</label>
+            <br>
+            <input type="checkbox" name="html" id="html">
+            <label for=" html">i am good at Html</label>
+            <br>
+            <input type="checkbox" name="nothing" id="nothing">
+            <label for="nothing">i am good at nothing</label>
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <label for="fruits">Select your favourite fruit</label>
+            <select name="fruits" id="fruits">
+                <option value="mango">Mango</option>
+                <option value="orange">orange</option>
+                <option value="banana">banana</option>
+                <option value="kiwi">kiwi</option>
+                <option value="peach">peach</option>
+                <option value="watermelon">watermelon</option>
+                <option value="grapes">grapes</option>
+            </select>
+        </div>
+
+
+        <br>
+
+        <div>
+            <label for="comment"></label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+        </div>
+
+        
+
+    </form>
+</body>
+
+</html>
